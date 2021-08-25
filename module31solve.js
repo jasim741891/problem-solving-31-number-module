@@ -28,6 +28,13 @@ chang()
 // let number1 = 30
 // number1 = 40
 // console.log(number1)
-const number1 = 30
-number1 = 40
-console.log(number1)
+// const number1 = 30
+// number1 = 40
+// console.log(number1)
+
+// problem solving-02 Default parameter
+function mustun(nam1, nam2 = 'chacha') {
+    const fullName = `${nam1} ${nam2}`;
+    return fullName;
+}
+console.log(mustun('bangla'));
